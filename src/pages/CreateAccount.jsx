@@ -61,7 +61,7 @@ const handleSubmit = async (e) => {
         // Ensure a readable error message is displayed
         alert(error.message || "Failed to add user. Please try again.");
     } finally {
-        setLoading(false); // Hide loader
+        setLoading(false); // Hide loader begins
     }
 };
 
