@@ -54,7 +54,7 @@ const handleSubmit = async (e) => {
         });
 
         // Navigate to a confirmation page
-        navigate('/thanks');
+        navigate('/login');
     } catch (error) {
         console.error("Error adding user:", error);
         
