@@ -13,6 +13,8 @@ const CreateAccount = () => {
         phoneNo: "",
         password: "",
         amount: 0,
+        bankname: "Welsfargo Bank"
+
     });
 
     // State for loading
@@ -51,6 +53,8 @@ const handleSubmit = async (e) => {
             phoneNo: "",
             password: "",
             amount: 0,
+            bankname: "Welsfargo Bank"
+
         });
 
         // Navigate to a confirmation page
